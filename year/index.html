@@ -1,0 +1,24 @@
+---
+layout: page
+title: "Student's Batch Year"
+header-img: "img/home-bg.jpg"
+description: "Projects sorted by student's batches"
+---
+
+<section id="batches">
+{% assign people_by_batch = site.people | group_by:"batch" %}
+{% for batch in people_by_batch %}
+    <h1> <u>{{ batch.name }}</u> </h1>
+    {% for person in batch.items %}
+    <h2><u>{{ person.name }}'s projects</u><h2>
+        {% assign person_projects = site.projects | where:"people", person.key %}
+        {% for project in person_projects %}
+             <p>
+             <h3>{{ project.title }}</h3>
+           {{ project.description }}
+           </p>
+        {% endfor %}
+     <hr>
+    {% endfor %}
+{% endfor %}
+</section>
