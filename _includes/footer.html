@@ -86,9 +86,6 @@
                     {% endif %}
                 </ul>
                 <p class="copyright text-muted">
-                {% if site.feedburner_url %}
-                    {% include feedburner_subscribe.html %}
-                {% endif %}
                 {% if site.copyright_name %}
                     <br><br> Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
                 {% endif %}
