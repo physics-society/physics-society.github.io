@@ -11,7 +11,6 @@ rss : true
 # used for portfolio on home page
 collections:
   - projects
-  - field
   - people
 
 # Build settings
