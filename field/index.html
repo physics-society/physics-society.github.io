@@ -8,17 +8,14 @@ description: "Projects sorted by areas of physics"
 <section id="batches">
 {% assign project_by_field = site.projects | group_by:"field" %}
 {% for field in project_by_field %}
-    <h1> <u>{{ field.name }}</u> </h1>
+    <h1> <u>{{ field.name }}</u></h1>
     {% for project in field.items %}
-         <p>
-         <h3>{{ project.title }}</h3>
+    <h3>{{ project.title }}</h3>
         {% for people in project.people %}
-            {% assign teammatey = site.people | where:"key", people  | first %}
-                {{ teammatey.name }} ({{ teammatey.batch }})
+        {% assign teammatey = site.people | where:"key", people  | first %}
+            <b>{{ teammatey.name }} ({{ teammatey.batch }} {{ teammatey.email }})</b><br>
         {% endfor %}
-        <br>
        {{ project.description }}
-       </p>
         {% endfor %}
      <hr>
 {% endfor %}
