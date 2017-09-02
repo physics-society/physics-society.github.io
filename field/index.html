@@ -9,7 +9,8 @@ description: "Projects sorted by areas of physics"
 {% assign project_by_field = site.projects | group_by:"field" %}
 {% for field in project_by_field %}
     <h1><u>{{ field.name }}</u></h1>
-    {% for project in field.items %}
+    {% assign sorted_projects = (field.items | sort: 'people' ) %}
+    {% for project in sorted_projects %}
     <h3>{{ project.title }}</h3>
         {% for people in project.people %}
         {% assign teammatey = site.people | where:"key", people  | first %}
