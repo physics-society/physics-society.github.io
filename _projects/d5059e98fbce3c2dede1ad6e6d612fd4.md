@@ -1,0 +1,6 @@
+---
+title : "Project Title"
+description : "4. Equation of propagation of the photon pair generated in four wave mixing, a non linear optical process (Quantum Optics, 2015, IITK) "
+people : "13817038"
+field : "Quantum"
+---
