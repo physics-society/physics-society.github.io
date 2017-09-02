@@ -4,12 +4,22 @@ title: "Fields of Physics"
 header-img: "img/home-bg.jpg"
 description: "Projects sorted by areas of physics"
 ---
+<section id="index">
+    <ul class="nav nav-pills">
+        {% assign project_by_field = site.projects | group_by:"field" %}
+        {% for field in project_by_field %}
+            <li><a href="#{{field.name}}">{{field.name}}</a></li>
+        {% endfor %}
+      </ul>
+</section>
 
-<section id="batches">
+<hr>
+
+<section id="fields">
 {% assign project_by_field = site.projects | group_by:"field" %}
 {% for field in project_by_field %}
-    <h1><u>{{ field.name }}</u></h1>
-    {% assign sorted_projects = (field.items | sort: 'people' ) %}
+    <h1><u><a name="{{ field.name }}">{{ field.name }}</a></u></h1>
+    {% assign sorted_projects = (field.items | sort: 'people') %}
     {% for project in sorted_projects %}
     <h3>{{ project.title }}</h3>
         {% for people in project.people %}
