@@ -1,11 +1,10 @@
 # Site settings
-title: Physics Society 
+title: Physics Society UG
 description: "IIT Kanpur Physics Society"  # used in site head
 
 # footer details. Deleting the value would remove it from footer.
 facebook_username: PhysicsSocietyIITk
 email: tkarmakar1996@gmail.com
-copyright_name: Physics Society
 rss : true
 
 # used for portfolio on home page
