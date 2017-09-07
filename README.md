@@ -13,6 +13,6 @@ python generate_collections.py
 
 Useful oneliners
 ```
-cp ~/Downloads/Phy\ soc\ website\ data\ -\ Contact-Information.csv data.csv && rm -rf _projects/* _people/* && python generate_collections.py
+mv ~/Downloads/Phy\ soc\ website\ data\ -\ Contact-Information.csv data.csv && rm -rf _projects/* _people/* && python generate_collections.py
 git commit -m "data v$(epoch)"
 ```
