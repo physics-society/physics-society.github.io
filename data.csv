@@ -1,9 +1,19 @@
 Name,Roll Number,Email,Batch,Project Title,Project Field,Project
-Srujan Sapkal,14604,srujan4869@gmail.com,Y14,Project Title,Condensed Matter,About localization of particles. I worked in IIT Kanpur itself.
+Srujan Sapkal,14604,srujan4869@gmail.com,Y14,Many-body localization,Condensed Matter,"Many-body localization phase transition is an interesting phenomenon
+developed recently.This localization phenomenon addresses the fundamental
+question of how a quantum many body systems should evolve when isolated
+from the environment. For these systems even when the governing
+Schrodinger equation is linear which suggest thermalization of the system,
+these systems do not thermalize under the dynamics of their own
+Hamiltonian and remain localized. Here Localization implies that the
+information stored through local freedom within the initial state will
+remain within local freedoms. These isolated disordered many body systems
+do not follow the laws of equilibrium statistical mechanics and have
+potential applications in developing future quantum devices."
 Rishabh Sahu,13817575,goforrishabh@gmail.com,Y13,Project Title,Quantum Optics,Working on a scheme that measures the Orbital Angular Momentum (OAM) of partially coherent light
 Rishabh Sahu,13817575,goforrishabh@gmail.com,Y13,Project Title,Optics,Designing a single optical element that separates light spatially depending on its OAM content.
 Shaurya Aarav,14643,shauryaaarav@gmail.com,Y14,Project Title,Quantum Optics,2014-15: Studied generation of entangled photons using Spontaneous Parametric Down Conversion (SPDC)
-Shaurya Aarav,14643,shauryaaarav@gmail.com,Y14,Project Title,Quantum Optics,2015-2017: Worked on fabricating spatial coherence properties of light fields and measuring them efficiently [SURGE]
+Shaurya Aarav,14643,shauryaaarav@gmail.com,Y14,Project Title,Optics,2015-2017: Worked on fabricating spatial coherence properties of light fields and measuring them efficiently [SURGE]
 Shaurya Aarav,14643,shauryaaarav@gmail.com,Y14,Project Title,Quantum Optics,"2017-: Measuring weightage of OAM components in SPDC field, Measuring quantum states"
 Tathagata Karmakar,14754,tathagata3004@gmail.com,Y14,Illustris data analysis,Astrophysics,"Summer 17: SN BOSE fellowship (Center for computational astrophysics, Simons foundation). 
 Work- Analyzing galaxy and host dark matter halo size relationships from Illustris and new generation Illustris simulations."
